@@ -1,0 +1,87 @@
+@media screen and (max-width: 900px) {
+
+
+    footer .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper i:first-child {
+        left: 10px !important;
+    }
+    .wrapper i:last-child {
+        right: 10px !important;
+    }
+    
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+
+    }
+
+    .but{
+        display: flex !important;
+    height: 10px;
+    width: 50px;
+    border:  none;
+    
+    }
+     
+    
+
+    .ad {
+
+        position: fixed;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        height:529px;
+        background: #ffffff;
+background: linear-gradient(263deg, rgba(255, 255, 255, 0.041) 0%, rgba(219, 200, 200, 0.034) 35%, rgba(205, 212, 212, 0.863) 100%);
+        top: 0;left: 0;
+        transition: 0.5s;
+        transform: translateX(-100%);
+    }
+
+    
+
+    .directions .card{
+
+        width: 100%;
+    }
+    .active{
+
+          transform: translateX(0);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    footer .as{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+
+    }
+
+    .form__block .test3{
+        width: 100% !important;
+        padding: 20px !important;
+
+    }
+}
+@media screen and (max-width: 474px) {
+    .contact{
+display: none;
+    }
+
+    .card .img img{
+        width: 100% !important;
+    }
+}
+ 
+   
